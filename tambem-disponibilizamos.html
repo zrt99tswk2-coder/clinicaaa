@@ -5,18 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Também Disponibilizamos | Clínica Albertina Alves</title>
 <meta name="description" content="Conheça os outros cuidados de saúde da Clínica Albertina Alves em Carvalhos, Vila Nova de Gaia: Podologia, Medicina Tradicional Chinesa e Psicologia Clínica.">
-<link rel="canonical" href="https://www.clinicaalbertinaalves.pt/tambem-disponibilizamos.html">
+<link rel="canonical" href="https://www.clinicaalbertinaalves.com/tambem-disponibilizamos.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Clínica Albertina Alves">
 <meta property="og:locale" content="pt_PT">
 <meta property="og:title" content="Também Disponibilizamos | Clínica Albertina Alves">
 <meta property="og:description" content="Conheça os outros cuidados de saúde da Clínica Albertina Alves em Carvalhos, Vila Nova de Gaia: Podologia, Medicina Tradicional Chinesa e Psicologia Clínica.">
-<meta property="og:image" content="https://www.clinicaalbertinaalves.pt/images/gabinete-clinico.jpg">
-<meta property="og:url" content="https://www.clinicaalbertinaalves.pt/tambem-disponibilizamos.html">
+<meta property="og:image" content="https://www.clinicaalbertinaalves.com/gabinete-clinico.jpg">
+<meta property="og:url" content="https://www.clinicaalbertinaalves.com/tambem-disponibilizamos.html">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Também Disponibilizamos | Clínica Albertina Alves">
 <meta name="twitter:description" content="Conheça os outros cuidados de saúde da Clínica Albertina Alves em Carvalhos, Vila Nova de Gaia: Podologia, Medicina Tradicional Chinesa e Psicologia Clínica.">
-<meta name="twitter:image" content="https://www.clinicaalbertinaalves.pt/images/gabinete-clinico.jpg">
+<meta name="twitter:image" content="https://www.clinicaalbertinaalves.com/gabinete-clinico.jpg">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230B2E2C'/%3E%3Cpath d='M32 14c-8 0-13 5.5-13 12.5 0 5 2.5 7.5 3.5 11 1 3.5 1 7.5 3.5 7.5s2.5-4 2.5-7.5 1.5-5 3.5-5 2.5 1.5 3.5 5 0 7.5 2.5 7.5 2.5-4 3.5-7.5c1-3.5 3.5-6 3.5-11C45 19.5 40 14 32 14Z' fill='none' stroke='%23B99456' stroke-width='2.6' stroke-linejoin='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -60,6 +60,13 @@
   .menu-toggle{display:none; flex-direction:column; gap:5px; cursor:pointer; background:none; border:none;}
   .menu-toggle span{width:24px; height:2px; background:var(--petrol-900); border-radius:2px;}
   @media(max-width:1080px){ nav{display:none;} .nav-cta .btn-outline{display:none;} .menu-toggle{display:flex;} }
+  @media(max-width:420px){
+    .nav-inner{padding:14px 16px;}
+    .logo{font-size:16px; gap:8px;}
+    .logo svg{width:26px; height:26px;}
+    .logo small{font-size:9px;}
+    .nav-cta .btn{padding:11px 16px; font-size:13px;}
+  }
   .hero{padding:180px 0 100px; position:relative; overflow:hidden; background:linear-gradient(180deg,var(--gray-100) 0%, var(--white) 100%);}
   .hero-grid{display:grid; grid-template-columns:1.05fr .95fr; gap:64px; align-items:center;}
   @media(max-width:920px){ .hero-grid{grid-template-columns:1fr;} .hero{padding:150px 0 60px;} }
@@ -130,25 +137,16 @@
   .legal-list{margin:10px 0 4px; padding-left:20px; list-style:disc;}
   .legal-list li{font-size:14.5px; color:#4A5856; margin-bottom:10px; line-height:1.6;}
   .legal-updated{margin-top:36px; font-size:12.5px; color:var(--gray-400);}
-  .extra-grid{grid-template-columns:repeat(3,1fr); max-width:760px; margin:0 auto;}
-  @media(max-width:700px){ .extra-grid{grid-template-columns:1fr;} }
   .why-card svg{width:26px; height:26px; color:var(--gold-500); margin-bottom:14px;}
   .why-card h4{font-size:15.5px; font-family:'Inter'; font-weight:600; color:var(--petrol-900);}
   .rating-box{max-width:480px; margin:0 auto; text-align:center; background:var(--gray-100); border-radius:var(--radius-lg); padding:48px 40px;}
+  @media(max-width:480px){ .rating-box{padding:36px 22px;} }
   .rating-stars{display:flex; justify-content:center; gap:6px; margin-bottom:16px;}
   .rating-stars svg{width:30px; height:30px;}
   .rating-number{font-family:'Playfair Display'; font-size:44px; color:var(--petrol-900); margin-bottom:6px;}
   .rating-count{font-size:13.5px; color:var(--gray-400); margin-bottom:24px;}
   .rating-source{display:flex; align-items:center; justify-content:center; gap:8px; font-size:13px; color:#5A6664; margin-bottom:20px;}
   .rating-source svg{width:18px; height:18px;}
-  .team-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:24px;}
-  @media(max-width:1000px){ .team-grid{grid-template-columns:repeat(2,1fr);} }
-  @media(max-width:560px){ .team-grid{grid-template-columns:1fr;} }
-  .team-photo{border-radius:var(--radius-md); overflow:hidden; aspect-ratio:3/4; margin-bottom:16px; box-shadow:var(--shadow-sm);}
-  .team-photo img{width:100%; height:100%; object-fit:cover;}
-  .team-card h4{font-size:17px; margin-bottom:2px;}
-  .team-card .role{font-size:13px; color:var(--gold-500); font-weight:600; margin-bottom:8px;}
-  .team-card p{font-size:13.5px; color:#5A6664;}
   .faq{background:var(--gray-100);}
   .faq-list{max-width:800px; margin:0 auto;}
   .faq-item{background:var(--white); border-radius:var(--radius-sm); margin-bottom:14px; overflow:hidden; box-shadow:var(--shadow-sm);}
@@ -161,6 +159,7 @@
   .contact-grid{display:grid; grid-template-columns:1fr 1fr; gap:48px;}
   @media(max-width:920px){ .contact-grid{grid-template-columns:1fr;} }
   .contact-info-card{background:var(--petrol-900); color:var(--white); border-radius:var(--radius-lg); padding:44px 38px;}
+  @media(max-width:480px){ .contact-info-card{padding:32px 24px;} }
   .contact-info-card h3{color:var(--white); font-size:22px; margin-bottom:26px;}
   .contact-row{display:flex; gap:14px; margin-bottom:22px; align-items:flex-start;}
   .contact-row svg{width:20px; height:20px; color:var(--gold-300); flex-shrink:0; margin-top:2px;}
@@ -179,6 +178,7 @@
   .cookie-actions .btn{padding:11px 18px; font-size:13px;}
   @media(max-width:560px){ #cookieBanner{left:12px; right:12px; bottom:12px; padding:20px;} .cookie-actions{width:100%;} .cookie-actions .btn{flex:1;} }
   .call-card{background:var(--white); border:1px solid var(--gray-200); border-radius:var(--radius-lg); padding:44px 38px; text-align:center; display:flex; flex-direction:column; align-items:center; justify-content:center;}
+  @media(max-width:480px){ .call-card{padding:32px 22px;} }
   .call-icon{width:64px; height:64px; border-radius:50%; background:var(--gray-100); display:flex; align-items:center; justify-content:center; color:var(--gold-500); margin-bottom:20px;}
   .call-icon svg{width:28px; height:28px;}
   .call-card h3{font-size:22px; margin-bottom:12px;}
@@ -308,7 +308,6 @@
     </div>
     <div class="footer-bottom">
       <span>© 2026 Clínica de Medicina Dentária Albertina Alves. Todos os direitos reservados.</span>
-      <!-- TODO (uso interno, não visível ao público): se a clínica pretender disponibilizar o número de registo na Entidade Reguladora da Saúde (ERS), adicionar aqui, ex: <span>ERS n.º XXXXX</span>. Não confirmado publicamente — não inventar este número. -->
     </div>
   </div>
 </footer>
@@ -334,12 +333,12 @@ const DEFAULT_CONTENT = {
     title: "Um sorriso saudável começa com confiança.",
     subtitle: "Há mais de duas décadas a cuidar da saúde oral de famílias inteiras, com rigor clínico, tecnologia atual e um acompanhamento próximo, consulta após consulta.",
     cta1: "Marcar Consulta", cta2: "Ver Tratamentos",
-    image: "images/gabinete-clinico.jpg",
+    image: "gabinete-clinico.jpg",
     badgeTitle: "Filosofia de proximidade", badgeSub: "Tratamento personalizado, paciente a paciente",
     stats: [["20+","Anos de experiência"],["100%","Equipa dedicada"],["10+","Áreas de tratamento"],["1:1","Atendimento personalizado"]]
   },
   about: {
-    image: "images/sala-espera.jpg",
+    image: "sala-espera.jpg",
     p1: "A Clínica de Medicina Dentária Albertina Alves iniciou a sua atividade a 23 de maio de 2001, dedicada exclusivamente à Medicina Dentária. Em 2009, deu-se um marco importante na nossa evolução: a diversificação dos serviços prestados, passando a disponibilizar também outras valências de saúde.",
     p2: "Ao longo de mais de duas décadas, temos vindo a consolidar a nossa experiência clínica e a dedicação a cada paciente, mantendo sempre o mesmo compromisso: cuidados de saúde oral rigorosos, um acompanhamento próximo e personalizado, e uma equipa sólida e dedicada.",
     values: [["Missão","Cuidar cada vez melhor da saúde oral e geral dos nossos pacientes."],["Visão","Ser uma referência em inovação e proximidade na área da saúde oral."],["Valores","Rigor clínico, escuta ativa e cuidado personalizado em cada etapa."],["Compromisso","Prevenção, tratamento e reabilitação, com informação clara para o paciente."]]
@@ -370,7 +369,7 @@ const DEFAULT_CONTENT = {
     ["Que tratamentos estão disponíveis para crianças?","Dispomos de odontopediatria dedicada, com um ambiente pensado para as crianças."],
     ["Com que regularidade devo fazer uma consulta de higiene oral?","Recomendamos, de forma geral, uma consulta a cada 6 meses."],
     ["A clínica realiza tratamentos de urgência?","Sim, contacte-nos diretamente para mais informação."],
-    ["Onde fica localizada a clínica?","A clínica está sediada em Carvalhos, Vila Nova de Gaia, na Rua Costa Couto, nº 77."],
+    ["Onde fica localizada a clínica?","Estamos localizados na Rua Costa Couto, n.º 77, Carvalhos, Vila Nova de Gaia."],
     ["Quanto tempo dura, em média, uma consulta?","A duração varia, em média entre 30 a 60 minutos."],
     ["A clínica oferece outras especialidades além de Medicina Dentária?","Sim, diversificámos os serviços ao longo da nossa história."],
     ["Quais os sinais de que devo marcar uma consulta com urgência?","Dor persistente, sensibilidade acentuada, inchaço ou sangramento das gengivas são sinais para não adiar a consulta."],
